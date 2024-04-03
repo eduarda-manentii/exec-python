@@ -1,8 +1,7 @@
 # Escreva um programa que leia a distância de uma viagem em KM. Calcule o preço
 # da passagem, cobrando R$ 0,65 por KM para viagens até 250 KM e R$ 0,40 para
 # viagens mais longas.
-distancia_percorrida = int(input("Digite a velocidade percorrida: "))
-preco_passagem = 0
+distancia_percorrida = int(input("Digite a percorrida percorrida: "))
 if(distancia_percorrida <= 250):
     preco_passagem = distancia_percorrida * 0.65
 else:
