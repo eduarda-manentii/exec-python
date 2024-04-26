@@ -4,6 +4,7 @@
 soremun = []
 for c in range(1, 11):
     numero = int(input("Insira o numero {}: ".format(c)))
-    soremun.insert(0, numero)
+    soremun.append(numero)
 
-print("Lista de soremun: {}.".format(soremun))
+for c in range(10, 0, -1):
+    print(soremun[c-1])
