@@ -7,4 +7,4 @@ def calcula_imposto(taxa_imposto, custo):
     imposto = (custo * taxa_imposto) / 100
     return custo + imposto
 
-print(calcula_imposto(10, 1000))
+print(calcula_imposto(3.5, 230))
