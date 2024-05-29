@@ -2,10 +2,6 @@
 # função para retornar o nome invertido com letras maiúsculas.
 
 def retorna_nome_maiusculo(nome):
-    nome_maiusculo = nome.upper()
-    emon = ""
-    for c in range (len(nome_maiusculo), 0, -1):
-        emon += nome_maiusculo[c - 1]
-    return emon
+    return nome[::-1].upper()
 
 print(retorna_nome_maiusculo("duda"))

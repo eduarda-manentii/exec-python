@@ -2,7 +2,7 @@
 # situação em um dicionário. Ao final mostre o conteúdo da estrutura na tela.
 
 nome = input("Digite seu nome: ")
-media = int(input("Digite sua média: "))
+media = float(input("Digite sua média: "))
 situacao = ""
 if (media > 6):
     situacao = "aprovado"

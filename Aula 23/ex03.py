@@ -8,7 +8,12 @@ nasc = int(input("Digite o ano do seu nascimento: "))
 carteira = int(input("Digite o número da carteira de trabaio: "))
 
 idade = 2024 - nasc
-trabalhador = {"nome" : nome, "nasc" : nasc, "carteira_trabalho" : carteira, "idade" : idade}
+trabalhador = {
+    "nome" : nome,
+    "nasc" : nasc,
+    "carteira_trabalho" : carteira,
+    "idade" : idade
+    }
 carteira = (carteira != 0)
 if(carteira):
     ano_contratacao = int(input("Digite o ano de contratação: "))

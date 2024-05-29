@@ -4,15 +4,12 @@
 
 import random
 
-jogadores = {"Jogador 1" : random.randint(1, 6), "Jogador 2" : random.randint(1, 6), "Jogador 3" : random.randint(1, 6), "Jogador 4" : random.randint(1, 6)}
-
-# FORMA QUE EU FIZ
-lista = []
-for i in sorted(jogadores, key = jogadores.get):
-    lista.append(str(i) + " -> Número: " + str(jogadores[i]))
-
-for jogador in range (len(lista), 0, -1):
-    print(lista[jogador - 1])
+jogadores = {
+    "Jogador 1" : random.randint(1, 6),
+    "Jogador 2" : random.randint(1, 6),
+    "Jogador 3" : random.randint(1, 6),
+    "Jogador 4" : random.randint(1, 6)
+    }
 
 # FORMA MELHOR
 for i in sorted(jogadores, key = jogadores.get, reverse=True):

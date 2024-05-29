@@ -3,7 +3,7 @@
 # o maior valor da lista e o menor valor da lista.
 
 
-import random
+from random import randint
 
 # FORMA 1
 # def cria_valores_aleatorios(tamanho):
@@ -20,8 +20,8 @@ import random
 # FORMA 2
 def cria_valores_aleatorios(tamanho):
     numeros_random = []
-    for _ in range (0, tamanho):
-        numeros_random.append(random.randint(1, 10))
+    for _ in range (tamanho):
+        numeros_random.append(randint(1, 10))
     return numeros_random, max(numeros_random),  min(numeros_random)
 
 print(cria_valores_aleatorios(5))
