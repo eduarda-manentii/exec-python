@@ -6,7 +6,6 @@
 #  centena: 4
 #  milhar: 2
 
-
 numero = input("Digite um numero: ")
 tam = len(numero)
 if(tam >= 1) and (tam <= 4):
